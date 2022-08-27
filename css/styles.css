@@ -141,6 +141,7 @@ body {
   padding-bottom: 32px;
   letter-spacing: 0.02em;
   color: var(--desc-font-color);
+  fill: currentColor;
   display: flex;
   align-items: center;
 }
@@ -148,13 +149,13 @@ body {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  fill: var(--desc-font-color);
+  /* fill: var(--desc-font-color); */
 }
 .auth-nav-icon-tel {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  fill: var(--desc-font-color);
+  /* fill: var(--desc-font-color); */
 }
 .site-nav .link:hover,
 .site-nav .link:focus,
@@ -343,11 +344,12 @@ body {
 .social-list {
   display: flex;
   justify-content: center;
+  gap: 8px;
 }
 .social-item {
   width: 44px;
   height: 44px;
-  margin-right: 8px;
+  /* margin-right: 8px; */
 }
 .social-link {
   display: flex;
